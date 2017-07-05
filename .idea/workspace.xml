@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddd63e7a-7f46-43c7-858f-4b91ae6775c3" name="Default" comment="lth-student-management 1.0.0">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-    </list>
+    <list default="true" id="ddd63e7a-7f46-43c7-858f-4b91ae6775c3" name="Default" comment="lth-student-management 1.0.0" />
     <ignored path="lth-student-management.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -913,7 +911,7 @@
       <workItem from="1498318452043" duration="238000" />
       <workItem from="1498318823978" duration="1169000" />
       <workItem from="1498321374369" duration="15000" />
-      <workItem from="1499249367832" duration="187000" />
+      <workItem from="1499249367832" duration="780000" />
     </task>
     <task id="LOCAL-00001" summary="lth-student-management 1.0.0">
       <created>1499249465185</created>
@@ -925,7 +923,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93971000" />
+    <option name="totallyTimeSpent" value="94564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
