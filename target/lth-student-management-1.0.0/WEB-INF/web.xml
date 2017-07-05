@@ -1,0 +1,61 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+    <context-param>
+        <param-name>charset</param-name>
+        <param-value>UTF-8</param-value>
+    </context-param>
+    <filter>
+        <filter-name>ContentTypeFilter</filter-name>
+        <filter-class>com.lth.student.commons.filter.ContentTypeFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>ContentTypeFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.lth.student.modules.sys.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginOutServlet</servlet-name>
+        <servlet-class>com.lth.student.modules.sys.servlet.LoginOutServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SysUserServlet</servlet-name>
+        <servlet-class>com.lth.student.modules.sys.servlet.SysUserServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SysUserServletApi</servlet-name>
+        <servlet-class>com.lth.student.modules.sys.api.SysUserServletApi</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>StudentSystemServlet</servlet-name>
+        <servlet-class>com.lth.student.modules.student.servlet.StudentSystemServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/loginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginOutServlet</servlet-name>
+        <url-pattern>/loginOutServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SysUserServlet</servlet-name>
+        <url-pattern>/sysUserServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SysUserServletApi</servlet-name>
+        <url-pattern>/sysUserServletApi</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>StudentSystemServlet</servlet-name>
+        <url-pattern>/studentSystemServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
